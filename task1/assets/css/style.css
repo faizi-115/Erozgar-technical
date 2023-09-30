@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+    height: 1000px;
+}
+
+#container {
+    background: url('https://preview.colorlib.com/theme/bootstrap/website-menu-03/images/hero_1.jpg.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    /*background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
+
+#menu {
+    height: 100px;
+    float: left;
+    width: 100%;
+    /* background: red; */
+
+}
+
+#menu .menu-wrapper {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    margin: 48px 0px 0px;
+}
+
+.menu-wrapper .left,
+.menu-wrapper .right {
+    height: 50px;
+
+    display: inline-block;
+    float: left;
+}
+
+.menu-wrapper .left {
+    /* background-color: beige; */
+    width: 48%;
+}
+
+.menu-wrapper .right {
+    /* background-color: orange; */
+    width: 52%;
+    margin-left: -1px;
+}
+
+.menu-wrapper ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.menu-wrapper ul li {
+    display: inline-block;
+}
+
+.menu-wrapper ul li a {
+    text-decoration: none;
+    padding: 5.5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+
+}
+
+
+.menu-wrapper ul li a.active {
+    background-color: #007bff;
+    border-radius: 30px;
+    color: white;
+}
+
+.menu-wrapper ul li a:hover {
+    background-color: #007bff;
+    border-radius: 30px;
+    color: white;
+}
+
+.menu-wrapper .left h1 {
+    margin-left: 206px;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
