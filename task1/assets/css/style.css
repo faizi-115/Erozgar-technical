@@ -95,3 +95,12 @@ body {
     font-weight: 400;
 
 }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: violet;
+    color: white;
+    text-align: center;
+}
